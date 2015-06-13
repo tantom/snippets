@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>aniAlpha</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        POPBasicAnimation *aniAlpha = [POPBasicAnimation animation];
+        aniAlpha.property = [POPAnimatableProperty propertyWithName:kPOPViewAlpha];
+        aniAlpha.toValue= @(1);
+        [_bottomSpContainer pop_addAnimation:aniAlpha forKey:@"show"];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3FF4F214-E42D-4226-A64A-101C40E27C6D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>aniAlpha</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

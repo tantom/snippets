@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>imageViewAsync</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    NSString *imgUrl = [prodJson valueForKey:@"image_url"];    
+    UIImageView *img = [[UIImageView alloc]initWithFrame:CGRectMake(10, 10, 75, 110)];
+    [img setImageWithURL:[NSURL URLWithString:[TextUtil fixUrlEncode:imgUrl]] placeholderImage:[UIImage imageNamed:@"ph.png"]];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E2B884E2-18C0-4D5B-A7D8-85AAB3F4D73A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>imageViewAsync</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

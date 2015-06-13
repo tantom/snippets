@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>aniPopFrame</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>POPSpringAnimation *ani = [POPSpringAnimation animation];
+ani.property            = [POPAnimatableProperty propertyWithName:kPOPViewFrame];
+ani.toValue             = [NSValue valueWithCGRect:CGRectMake(0, 0, &lt;#viewObj#&gt;.frame.size.width, &lt;#viewObj#&gt;.frame.size.height)];
+ani.springBounciness    = 4;
+ani.springSpeed         = 4;
+ani.completionBlock     = ^(POPAnimation *anim, BOOL finished) {
+    
+};
+[&lt;#viewObj#&gt; pop_addAnimation:ani forKey:@"POPAnimation"];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AB74DC59-FC47-41FF-8DB6-9E319FA0E9C3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>aniPopFrame</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>icon</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UILabel *icon = [[UILabel alloc]initWithFrame:CGRectMake(4, 4, 12, 12)];
+icon.backgroundColor = [UIColor clearColor];
+icon.font = [UIFont fontWithName:kFontAwesomeFamilyName size:12];
+icon.textColor = [UIColor blackColor];
+icon.text = [NSString fontAwesomeIconStringForEnum:FAIco&lt;#iconName#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4760C16E-579F-4E55-9618-3107795B09A1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>icon</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

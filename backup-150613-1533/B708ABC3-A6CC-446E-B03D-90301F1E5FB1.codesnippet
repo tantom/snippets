@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tableviewNextPageInsert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSMutableArray *updatedPaths = [NSMutableArray array];
+                [json.rows enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL *stop) {
+                    int rowCount = (int)_datasource.count;
+                    
+                    NSIndexPath *updatedPath = [NSIndexPath indexPathForRow:rowCount inSection:0];
+                    [updatedPaths addObject:updatedPath];
+                    [_datasource addObject:obj];
+                }];
+                
+                [_tableView insertRowsAtIndexPaths:updatedPaths withRowAnimation:UITableViewRowAnimationBottom];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B708ABC3-A6CC-446E-B03D-90301F1E5FB1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>table view next page</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>html</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>MDHTMLLabel *htmlLabel = [[MDHTMLLabel alloc] initWithFrame:CGRectMake(0, 0, _ctx.screenWidth, 40)];
+    htmlLabel.backgroundColor = [UIColor clearColor];
+    htmlLabel.delegate = self;
+    htmlLabel.htmlText = @"&lt;#text#&gt;";
+    htmlLabel.font = BGFont(14);
+    htmlLabel.lineHeightMultiple = 1.5;
+    htmlLabel.numberOfLines = 0;
+    htmlLabel.linkAttributes = @{NSForegroundColorAttributeName: kCssRose,
+                                 NSFontAttributeName: BGFont(14),
+                                 NSUnderlineStyleAttributeName: @(NSUnderlineStyleSingle)};</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E6F7B980-8E46-4FE8-994C-026F301F86D0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>html</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

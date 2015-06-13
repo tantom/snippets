@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>imgDownload</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIImageView *img = [[UIImageView alloc]initWithFrame:CGRectMake(0, posY, targetWidth, targetHeight)];
+            [img showLoadingSpin:YES];
+            __weak UIImageView *weakImg = img;
+            [img setImageWithURL:[NSURL URLWithString:[TextUtil fixUrlEncode:clipImageURL]]
+                       completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+                           [weakImg showLoadingSpin:NO];
+                       } usingActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7B6E37CA-24C2-4430-9CB3-0100F2091EB1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>imgDownload</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
