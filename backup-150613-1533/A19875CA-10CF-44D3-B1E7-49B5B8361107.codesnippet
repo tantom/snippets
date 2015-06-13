@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>segChangeEvt</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)onSegChange:(UISegmentedControl *)segment
+{
+    if(segment.selectedSegmentIndex == 0) {
+        _currentList = SocialListMedia;
+    }else if(segment.selectedSegmentIndex==1) {
+        _currentList = SocialListMyPost;
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A19875CA-10CF-44D3-B1E7-49B5B8361107</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>segChangeEvt</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

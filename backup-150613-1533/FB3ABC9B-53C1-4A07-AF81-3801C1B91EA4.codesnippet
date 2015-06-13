@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>alertInput</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIAlertView *alert = [UIAlertView bk_alertViewWithTitle:@"Create Wishlist"];
+    [alert setAlertViewStyle:UIAlertViewStylePlainTextInput];
+    UITextField *textField = [alert textFieldAtIndex:0];
+    textField.keyboardType = UIKeyboardTypeNumberPad;
+    
+    [alert bk_setCancelButtonWithTitle:@"Cancel" handler:^{
+        
+    }];
+    
+    [alert bk_addButtonWithTitle:@"Create" handler:^{
+        
+    }];
+    
+    [alert show];
+    </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FB3ABC9B-53C1-4A07-AF81-3801C1B91EA4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>alert with an input field</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

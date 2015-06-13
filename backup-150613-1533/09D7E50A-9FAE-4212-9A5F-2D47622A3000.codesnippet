@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>confirm</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[UIAlertView bk_showAlertViewWithTitle:@"" message:@"&lt;#msg#&gt;?" cancelButtonTitle:@"Cancel" otherButtonTitles:@[@"Delete it!"] handler:^(UIAlertView *alertView, NSInteger buttonIndex) {
+        if (buttonIndex==1) {
+            &lt;#doAction#&gt;
+        }
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>09D7E50A-9FAE-4212-9A5F-2D47622A3000</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>confirm</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

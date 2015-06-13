@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>textfield</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UITextField *field = [[UITextField alloc]initWithFrame:CGRectMake(10, 0, 40, 40)];
+        field.borderStyle = UITextBorderStyleNone;
+        field.font = [UIFont systemFontOfSize:18];
+        field.autocapitalizationType = UITextAutocapitalizationTypeNone;
+        field.returnKeyType = UIReturnKeyDone;
+        field.clearButtonMode = UITextFieldViewModeWhileEditing;
+        field.placeholder = @"";
+        field.text = @"";
+        field.textColor = [UIColor blackColor];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D86D2736-0112-46D8-A62B-BA42E9708913</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>textfield</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

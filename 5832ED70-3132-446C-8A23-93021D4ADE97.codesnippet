@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>segmentControlSimple</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UISegmentedControl *segCon = [[UISegmentedControl alloc] initWithItems:@[@"tab1",@"tab2"]];
+    segCon.frame = CGRectMake(20, 20, _ctx.screenWidth-40, 40);
+    segCon.segmentedControlStyle = UISegmentedControlStylePlain;
+    [segCon addTarget:self action:@selector(onSegChange:) forControlEvents: UIControlEventValueChanged];
+    segCon.selectedSegmentIndex = 0;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5832ED70-3132-446C-8A23-93021D4ADE97</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>segment control simple</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

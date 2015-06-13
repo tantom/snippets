@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>parseLog</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//远程调试,适合机器无法跟踪打断点时
+if (DEBUG_APP_LEVEL&gt;0) {
+    PFObject *rLog = [PFObject objectWithClassName:@"DebugLogs"];
+    rLog[@"log"] = @"&lt;#msg#&gt;";
+    [rLog saveEventually];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D92A3BC2-4771-4BF6-9B6A-FD77E51A677A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>parseLog</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
