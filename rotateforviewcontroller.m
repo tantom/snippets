@@ -1,6 +1,7 @@
 // rotateForViewController
 // 
 //
+// IDECodeSnippetCompletionPrefix: rotateForViewController
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
 // IDECodeSnippetIdentifier: 247A4951-42A2-4929-9CD3-ED35495CD10D
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
