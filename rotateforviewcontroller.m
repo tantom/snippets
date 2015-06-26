@@ -6,7 +6,7 @@
 // IDECodeSnippetIdentifier: 247A4951-42A2-4929-9CD3-ED35495CD10D
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
 #pragma mark - 控制屏幕旋转的问题
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
     
